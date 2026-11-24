@@ -1,0 +1,15 @@
+step,kind,rule,count
+1,clean,Columns renamed to snake_case,21
+2,clean,Cells with leading or trailing whitespace trimmed (all in total_charges),11
+3,clean,"Blank total_charges set to 0.00 (all are tenure-0 customers, not yet billed) and flagged is_new_unbilled",11
+4,clean,senior_citizen recoded from 0/1 to No/Yes to match the other columns (Yes count),1142
+5,clean,"'No internet service' and 'No phone service' collapsed to 'No' (internet_service and phone_service already carry that fact), cells changed",9838
+6,clean,internet_service 'No' renamed 'No internet' so it is not mistaken for a Yes/No answer (and the text 'None' is avoided: pandas reads it as a missing value),1526
+7,add,churn_flag (1 = churned) created,1869
+8,add,"tenure_band and tenure_band_order created (yearly bands, tenure-0 customers sit in 0-12)",7043
+9,add,"num_addons (0 to 6 optional services) created, customers with at least one",4824
+10,add,"autopay (bank transfer or credit card) created, customers on autopay",3066
+11,trap,"Rows identical to another customer on every column except ID: kept (all tenure 1, simplest plans: a shared plan is not a duplicate)",22
+12,trap,total_charges differs from tenure x monthly_charges by more than 20% (price changes over time): kept as recorded,69
+13,trap,"Class imbalance: 26.5% of customers churned, so 'predict nobody leaves' is already 73.5% accurate and accuracy is not a valid score. Count = churned customers",1869
+14,trap,"No dates in the file, so this is a snapshot. Tenure is the length of stay for churned customers but is still growing for active ones. Count = active customers",5174
