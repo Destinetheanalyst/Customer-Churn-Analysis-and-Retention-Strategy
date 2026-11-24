@@ -1,0 +1,5 @@
+attribute,group,customers,actual_churn_rate_pct,flagged_pct,recall_pct,precision_pct,auc
+gender,Female,863,27.8,25.3,56.2,61.9,0.837
+gender,Male,898,25.3,24.7,60.4,61.7,0.85
+senior_citizen,No,1475,23.4,21.4,54.8,59.8,0.845
+senior_citizen,Yes,286,42.7,43.4,68.0,66.9,0.796

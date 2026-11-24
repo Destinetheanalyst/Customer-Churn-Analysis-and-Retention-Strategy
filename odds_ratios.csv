@@ -1,0 +1,21 @@
+term,odds_ratio,meaning
+internet_service_Fiber optic,1.808,vs the reference value of that attribute
+paperless_billing_Yes,1.503,vs the reference value of that attribute
+payment_method_Electronic check,1.432,vs the reference value of that attribute
+monthly_charges,1.413,per 1 standard deviation increase
+multiple_lines_Yes,1.271,vs the reference value of that attribute
+streaming_movies_Yes,1.207,vs the reference value of that attribute
+streaming_tv_Yes,1.146,vs the reference value of that attribute
+payment_method_Mailed check,1.078,vs the reference value of that attribute
+partner_Yes,0.998,vs the reference value of that attribute
+payment_method_Credit card (automatic),0.943,vs the reference value of that attribute
+device_protection_Yes,0.931,vs the reference value of that attribute
+online_backup_Yes,0.833,vs the reference value of that attribute
+dependents_Yes,0.766,vs the reference value of that attribute
+tech_support_Yes,0.657,vs the reference value of that attribute
+online_security_Yes,0.641,vs the reference value of that attribute
+phone_service_Yes,0.589,vs the reference value of that attribute
+internet_service_No internet,0.57,vs the reference value of that attribute
+contract_One year,0.546,vs the reference value of that attribute
+tenure_months,0.448,per 1 standard deviation increase
+contract_Two year,0.364,vs the reference value of that attribute

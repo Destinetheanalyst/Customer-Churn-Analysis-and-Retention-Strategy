@@ -1,0 +1,17 @@
+dimension,segment,customers,churn_rate_pct
+contract,Month-to-month,3875,42.7
+contract,One year,1473,11.3
+contract,Two year,1695,2.8
+tenure_band,0-12,2186,47.4
+tenure_band,13-24,1024,28.7
+tenure_band,25-36,832,21.6
+tenure_band,37-48,762,19.0
+tenure_band,49-60,832,14.4
+tenure_band,61-72,1407,6.6
+internet_service,Fiber optic,3096,41.9
+internet_service,DSL,2421,19.0
+internet_service,No internet,1526,7.4
+payment_method,Electronic check,2365,45.3
+payment_method,Mailed check,1612,19.1
+payment_method,Bank transfer (automatic),1544,16.7
+payment_method,Credit card (automatic),1522,15.2

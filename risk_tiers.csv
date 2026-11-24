@@ -1,0 +1,4 @@
+risk_tier,customers,actual_churn_rate_pct,avg_probability
+High,1516,65.6,0.648
+Medium,1854,32.4,0.333
+Low,3673,7.5,0.074

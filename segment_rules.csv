@@ -1,0 +1,9 @@
+segment,rule,customers_train,churn_rate_train_pct,customers_test,churn_rate_test_pct
+S1,contract = Month-to-month AND internet_service = Fiber optic AND tenure_months <= 15.5,779,69.8,257,67.3
+S2,contract = Month-to-month AND internet_service is not Fiber optic AND tenure_months <= 3.5,447,43.6,144,46.5
+S3,contract = Month-to-month AND internet_service = Fiber optic AND tenure_months > 15.5,816,40.7,276,40.9
+S4,contract = One year AND monthly_charges > 93.7,305,21.6,93,24.7
+S5,contract = Month-to-month AND internet_service is not Fiber optic AND tenure_months > 3.5,865,19.7,291,21.0
+S6,contract = Two year AND monthly_charges > 93.7,282,8.2,98,7.1
+S7,contract = One year AND monthly_charges <= 93.7,802,7.1,273,7.3
+S8,contract = Two year AND monthly_charges <= 93.7,986,1.5,329,0.9
